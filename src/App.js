@@ -22,22 +22,22 @@ function App() {
         <div className='grid'>
           <div className='child'>
           <a href='http://54.88.130.203/#!/'>
-            <img src='/img/skyimg.webp' alt='' />
+            <img src='	https://the100exch.com/the-img/skyimg.webp' alt='' />
             </a>
           </div>
           <div className='child'>
             <a href='http://54.88.130.203:3000/Login'>
-              <img src='/img/diamondimg.webp' alt='' />
+              <img src='https://the100exch.com/the-img/diamondimg.webp' alt='' />
             </a>
           </div>
           <div className='child'>
               <a href='#'>
-            <img src='/img/lotusimg.webp' alt='' />
+            <img src='https://the100exch.com/the-img/lotusimg.webp' alt='' />
             </a>
           </div>
           <div className='child'>
               <a href='http://207.180.199.240/'>
-            <img src='/img/worldimg.webp' alt='' />
+            <img src='https://the100exch.com/the-img/worldimg.webp' alt='' />
             </a>
           </div>
         </div>
