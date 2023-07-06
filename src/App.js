@@ -18,6 +18,7 @@ function App() {
             <p>PLAY ON YOUR LUCKY THEME</p>
           </div>
         </div>
+        
         <div className='grid'>
           <div className='child'>
           <a href='http://54.88.130.203/#!/'>
