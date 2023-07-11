@@ -14,9 +14,7 @@ function App() {
           </div>
         </div>
         <div className='lucky__theme'>
-          <div className='z_index'>
             <p>PLAY ON YOUR LUCKY THEME</p>
-          </div>
         </div>
         
         <div className='grid'>

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&display=swap');
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,6 +7,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+    background: url('/public/img/bg.png') no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    font-family: 'Inter', sans-serif;
 }
 
 *{
@@ -14,10 +20,7 @@ body {
 }
 
 .container{
-  background: url('/public/img/bg.png') no-repeat;
-    background-size: cover;
-    min-height: 100vh;
-
+  width: 100%;
 }
 
 .wrapper{
@@ -62,8 +65,8 @@ body {
 
 }
 
-.lucky__theme .z_index p{
-
+.lucky__theme  p{
+  display: inline-block;
   color: #fff;
   line-height: 38px;
   border: 6px solid #ff00ff;
@@ -73,10 +76,10 @@ body {
   border-radius: 26px;
   margin: 20px 0px;
   background: #000;
-  font-weight: 800;
+  font-weight: 600;
 }
 
-/* .lucky__theme p::before{
+.lucky__theme p::before{
   width: 100%;
   height: 6px;
   background: #ff00ff;
@@ -87,16 +90,10 @@ body {
   top: 50%;
   transform: translateY(-50%);
   border-radius: 3px;
-} */
-
-.z_index{
-  display: flex;
-  justify-content: center;
+  z-index: -1;
 }
 
-.z_index p{
-  z-index: 999
-}
+
 
 .grid{
   display: grid;
@@ -118,7 +115,7 @@ body {
   .grid{
     grid-template-columns: repeat( auto-fit, minmax(330px, 1fr));
   }
-  .lucky__theme .z_index p{
+  .lucky__theme  p{
     font-size: 20px;
   }
 }
@@ -130,13 +127,13 @@ body {
   .grid{
     grid-template-columns: repeat( auto-fit, minmax(350px, 1fr));
   }
-  .lucky__theme .z_index p{
+  .lucky__theme p{
     font-size: 20px;
   }
 }
 
 @media (max-width:900px){
-  .lucky__theme .z_index p{
+  .lucky__theme  p{
     font-size: 15px;
   }
   .grid{
@@ -176,7 +173,7 @@ body {
   .wrapper{
     padding: 0 2rem;
   }
-  .lucky__theme .z_index p{
+  .lucky__theme p{
     padding: 1px 15px;
   }
 
