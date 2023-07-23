@@ -16,7 +16,7 @@ function App() {
             </div>
         </div>
         <div className='lucky__theme'>
-            <p>PLAY ON YOUR LUCKY THEME</p>
+            <p>GET YOUR OWN WHITELABEL</p>
         </div>
         
         <div className='grid'>
