@@ -6,12 +6,14 @@ function App() {
       <div className='wrapper'>
         <div className='header__top'>
           <div className='the_100_exch'>
-            <img src='/img/the100exch.png' alt='' />
+            <img src='/img/logo.jpg' alt='' />
           </div>
-          <div className='win'>
-            <h2>WIN EVERYWHERE</h2>
-            <h2>#LAGISHART</h2>
-          </div>
+          <div className='whatsapp'>
+              <div className='parent'>
+                <a href="https://api.whatsapp.com/send/?phone=441892710894&text&type=phone_number&app_absent=0"><i class="fa-brands fa-whatsapp"></i></a>
+              </div>
+              <p>Whats App</p>
+            </div>
         </div>
         <div className='lucky__theme'>
             <p>PLAY ON YOUR LUCKY THEME</p>
@@ -39,6 +41,7 @@ function App() {
             </a>
           </div>
         </div>
+
       </div>
     </div>
   );

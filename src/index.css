@@ -35,8 +35,15 @@ body {
     max-width: 1100px;
     padding-top: 75px;
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
+
+.whatsapp p{
+  color: #fff;
+}
+
+
 
 .win{
   display: flex;
@@ -108,6 +115,34 @@ body {
   object-fit: contain;
 }
 
+.whatsapp_msg p{
+  color: #fff;
+  font-weight: 700;
+  margin-left: -2rem;
+}
+
+.whatsapp a{
+  margin: 10px;
+  text-decoration: none;
+  color: #fff;
+  display: inline-block;
+  cursor: pointer;
+  background-color: #00b46a;
+  font-weight: bold;
+  padding: 0.5rem;
+  letter-spacing: 1.2px;
+  font-size: 0.9rem;
+  border-radius: 13px;
+}
+
+.whatsapp a i{
+  font-size: 3rem;
+}
+
+.parent i{
+  color: #fff;
+}
+
 @media (max-width:1200px){
   .wrapper{
     padding: 0 5rem;
@@ -156,6 +191,7 @@ body {
     object-fit: cover;
   }
   .header__top{
+    gap:2rem;
     flex-direction: column;
   }
   .win{
