@@ -19,7 +19,7 @@ function App() {
             </div>
         </div>
         <div className='lucky__theme'>
-            <p>GET YOUR OWN WHITELABEL</p>
+            <p>Develop your own Exchange</p>
         </div>
         
         <div className='grid'>
